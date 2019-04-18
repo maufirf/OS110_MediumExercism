@@ -26,8 +26,8 @@ pub fn find_saddle_points(input: &[Vec<u64>]) -> Vec<(usize, usize)> {
                 .all(|&x| input[i][j] >= x) // should current element bigger or equals to them
             && //and
             (0..input.len()) // all elements in all rows
-            .zip(vec![j; input.len()].iter()) // in the same column
-            .all(|(im, jm)| input[i][j] <= input[im as usize][*jm as usize]) // should current element smaller or equals to them.
+                .zip(vec![j; input.len()].iter()) // in the same column
+                .all(|(im, jm)| input[i][j] <= input[im as usize][*jm as usize]) // should current element smaller or equals to them.
             {sad_poi.push((i,j));} //add current element to result vec
         }
     }
@@ -35,4 +35,21 @@ pub fn find_saddle_points(input: &[Vec<u64>]) -> Vec<(usize, usize)> {
 }
 ```
 
-**TODO** complete readme
+As stated on the instructions, we're only have to find the element(s) which are the smallest among elements in the same column and are the biggest among elements in the same row, despite the shape of the array.
+
+My code can be simplified to this:
+
+```rust
+pub fn find_saddle_points(input: Vec of Vec) -> Vec of saddle point indices {
+    1. Prepare the container of saddle point indices
+    2. Push indices to container if it fulfil this rule:
+        a. Iterate all elements in the array, get indices i and j.
+        b. Using iterators:
+            I. Check if element on (i, j) is biggest among all elements in row i
+               (by making iterable out of the current row, simply input[i])
+            II. Check if element on (i, j) is smallest among all elements in column j
+                (by zipping column j with all possible i indices then get all elements in column)
+        c. If both previous conditions are ture, push current indices to the container
+    3. Return the container
+}
+```
