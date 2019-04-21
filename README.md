@@ -5,15 +5,22 @@ This is an assignment of Operating System course in semester 110 of Jakarta Stat
 
 I have chosen five completed medium exercism challenges as the submission for current assignment:
 
-- DOT DSL
-- Nucleotide Count
-- RNA Transcription
-- Robot Simulator
-- Saddle Points
-- Anagram
-- Diamond
-- Protein Translation
-- Word Count
+- First batch:
+    - DOT DSL
+    - Nucleotide Count
+    - RNA Transcription
+    - Robot Simulator
+    - Saddle Points
+- Second batch:
+    - Anagram
+    - Diamond
+    - Protein Translation
+    - Word Count
+- Third batch:
+    - ETL
+    - Hamming
+    - Isogram
+    - Perfect Numbers
 
 Also, I will describe on how i solved the Saddle Points problem.
 
