@@ -10,6 +10,10 @@ I have chosen five completed medium exercism challenges as the submission for cu
 - RNA Transcription
 - Robot Simulator
 - Saddle Points
+- Anagram
+- Diamond
+- Protein Translation
+- Word Count
 
 Also, I will describe on how i solved the Saddle Points problem.
 
