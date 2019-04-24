@@ -24,7 +24,7 @@ I have chosen five completed medium exercism challenges as the submission for cu
     - [Isogram](https://exercism.io/tracks/rust/exercises/isogram/solutions/db7b3da0bc8441e28d556f380d0c713b)
     - [Perfect Numbers](https://exercism.io/tracks/rust/exercises/perfect-numbers/solutions/17820e20136e4753b26a7b8bab98a075)
 
-Also, I will describe on how i solved the Saddle Points problem.
+Also, I will describe on how i solved the Diamond problem.
 
 ------
 
