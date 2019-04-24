@@ -1,3 +1,5 @@
+[.zip](https://github.com/parampaa2/OS110_MediumExercism/archive/0.1.0.zip) | [.tar.gz](https://github.com/parampaa2/OS110_MediumExercism/archive/0.1.0.tar.gz)
+
 *Github.io project page - [parampaa2.github.io/OS110_MediumExercism](https://parampaa2.github.io/OS110_MediumExercism/)*
 
 Muhammad Aufi Rayesa Frandhana
